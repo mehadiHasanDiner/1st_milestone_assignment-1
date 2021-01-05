@@ -1,0 +1,108 @@
+
+
+body{
+    margin: 0;
+    font-family: 'Philosopher', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: #363958;
+}
+.higlight{
+    color: #FF8367;
+}
+
+h1{
+    font-size: 40px;
+    margin: 18px 0 -9px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    color: dimgray;
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 15px;
+    line-height: 22px;
+}
+
+
+.orange-highlight{
+    color:rgb(179, 2, 179);
+}
+a.orange-highlight {
+    text-decoration: none;
+}
+
+a.orange-highlight:hover {
+    color: white;
+    background-image: linear-gradient(to right bottom, #260537, #4f0d56, #7e1373, #b3158c, #eb12a0);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0 4px;
+}
+
+
+.half-div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-div img{
+    width: 80%;
+}
+
+.top-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right bottom, #ff8f44, #eb12a0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+a.link-button:hover {
+    color: white;
+    background-image: linear-gradient(to right bottom, #260537, #4f0d56, #7e1373, #b3158c, #eb12a0);
+    text-decoration: none;
+    margin: 2px;
+}
+
+#margin-fix img{
+    margin-top: -50px;
+    width: 95%;
+}
+
+section{
+    height: 500px;
+}
+
+.project-section{
+    background-color: #E5E5E5;
+    width: 80%;
+    padding: 10%;
+    margin: 0 auto;
+}
+.project-1{
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    float: left;
+    margin: 5px;
+    padding: 15px;
+}
+
+.project-1 img{
+    width: 100%;
+
+}
