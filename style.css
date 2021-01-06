@@ -196,8 +196,6 @@ input[type=submit] {
   }
 
   /* chat section */
-  /* https://www.w3schools.com/howto/howto_css_image_text.asp */
-
   .chating-part{
       max-width: 80%;
       height: 70px;
