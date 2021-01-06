@@ -68,8 +68,9 @@ a.orange-highlight:hover {
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(to right bottom, #ff8f44, #eb12a0);
-    padding: 10px 20px;
+    padding: 20px 30px;
     border-radius: 5px;
+    font-size: 20px;
     color: white;
 }
 
@@ -91,6 +92,7 @@ a.link-button:hover {
 
 section{
     height: 500px;
+    margin: 0 auto;
 }
 
 .project-section{
@@ -113,3 +115,116 @@ section{
 .project-1 img{
     width: 100%;
 }
+
+/* contact form style  */
+
+.contact-section{
+    width: 80%;
+    float: left;
+    margin-left: 5%;
+    padding: 5%;
+}
+
+.contact-section h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid tomato;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+    
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid tomato;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid tomato;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+textarea#message {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid tomato;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+input[type=submit] {
+    width: 100%;
+    background-color: tomato;
+    font-size: 18px;
+    color: white;
+    padding: 10px 16px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #b3158c;
+  }
+
+  /* contact form style end */
+
+  /* chat section */
+  .chat-section {
+        width: 100%;
+       
+
+  }
+
+  /* chat section */
+  /* https://www.w3schools.com/howto/howto_css_image_text.asp */
+
+  .chating-part{
+      max-width: 80%;
+      height: 70px;
+      margin: 0 auto;
+      position: relative;
+      text-align: center;
+  }
+  
+  .chating-part img{
+    width: 60%;
+
+}
+  .top-right {
+    position: absolute;
+    top: 300px;
+    right: 400px;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 280px;
+    left: 400px;
+  }
+
+  .top-left h1{
+    color: white;
+  }
+
+  /* chat section end */
