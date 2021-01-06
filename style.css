@@ -212,7 +212,7 @@ input[type=submit] {
 }
   .top-right {
     position: absolute;
-    top: 300px;
+    top: 310px;
     right: 400px;
   }
 
@@ -242,10 +242,48 @@ input[type=submit] {
     margin: 0 auto;
     width: 26%;
     /* margin-left: 50px; */
-    padding-left: 190px;
+    padding-left: 230px;
 }
 
 .footer-img img{
     width: 10%;
     margin-right: 30px;
 }
+
+/* menu option */
+
+header{
+    width: 100%;
+}
+
+.menu {
+    width: 95%;
+    margin-bottom: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  li a:hover {
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+  }
